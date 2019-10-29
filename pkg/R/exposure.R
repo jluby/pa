@@ -213,7 +213,7 @@ setMethod("exposure",
 
               return(expo.list)
             } else {
-              ## continuous (5 quantiles)
+              ## continous (5 quantiles)
 
               expo.list <- list()
               no.date <- length(object@date.var)
